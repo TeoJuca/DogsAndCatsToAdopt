@@ -1,0 +1,60 @@
+// custom variables
+$primary: rgb(235, 215, 102);
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  font-family: "Palette Mosaic", cursive;
+}
+
+#showcase {
+  background: rgb(227, 235, 235);
+  .btn:hover {
+    color: coral;
+  }
+}
+
+#carousel {
+  .carousel-inner {
+    .carousel-item {
+      img {
+        width: 220px;
+        height: 800px;
+      }
+    }
+  }
+
+  .carousel-item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(144, 156, 156, 0.24);
+  }
+}
+
+.card {
+  border: none;
+  background: rgb(227, 235, 235);
+  padding: 0.5rem;
+}
+
+#footer {
+  background: rgb(227, 235, 235);
+  padding: 0.5rem;
+}
+#footer-contact {
+  background: rgb(227, 235, 235);
+  padding: 0.5rem;
+}
+#footer-about {
+  background: rgb(227, 235, 235);
+  padding: 0.5rem;
+}
